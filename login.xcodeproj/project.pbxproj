@@ -14,6 +14,7 @@
 		C05CD6A51DC10AC1000DD8B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05CD6A31DC10AC1000DD8B1 /* LaunchScreen.storyboard */; };
 		C05CD6B01DC10AC1000DD8B1 /* loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CD6AF1DC10AC1000DD8B1 /* loginTests.swift */; };
 		C05CD6BB1DC10AC1000DD8B1 /* loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CD6BA1DC10AC1000DD8B1 /* loginUITests.swift */; };
+		C05CD6CB1DC120AA000DD8B1 /* VCRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CD6CA1DC120AA000DD8B1 /* VCRegister.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C05CD6B61DC10AC1000DD8B1 /* loginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05CD6BA1DC10AC1000DD8B1 /* loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITests.swift; sourceTree = "<group>"; };
 		C05CD6BC1DC10AC1000DD8B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05CD6CA1DC120AA000DD8B1 /* VCRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRegister.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C05CD69E1DC10AC1000DD8B1 /* Main.storyboard */,
 				C05CD6A11DC10AC1000DD8B1 /* Assets.xcassets */,
 				C05CD6A31DC10AC1000DD8B1 /* LaunchScreen.storyboard */,
+				C05CD6CA1DC120AA000DD8B1 /* VCRegister.swift */,
 				C05CD6A61DC10AC1000DD8B1 /* Info.plist */,
 			);
 			path = login;
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C05CD69D1DC10AC1000DD8B1 /* ViewController.swift in Sources */,
+				C05CD6CB1DC120AA000DD8B1 /* VCRegister.swift in Sources */,
 				C05CD69B1DC10AC1000DD8B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				C05CD6C11DC10AC1000DD8B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C05CD6C21DC10AC1000DD8B1 /* Build configuration list for PBXNativeTarget "loginTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				C05CD6C41DC10AC1000DD8B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C05CD6C51DC10AC1000DD8B1 /* Build configuration list for PBXNativeTarget "loginUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				C05CD6C71DC10AC1000DD8B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
